@@ -20,7 +20,7 @@ global.listv = ['✦','✧','△','❀','○','□','♤','♡','◇','♧','々
 global.tempatDB = 'database.json' 
 global.tempatStore = 'baileys_store.json' 
 global.pairing_code = true
-global.number_bot = '' //
+global.number_bot = '+2349158046313' //
 
 global.fake = {
 	anonim: 'https://files.catbox.moe/hhvdoi.jpg',
@@ -84,4 +84,5 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
 
